@@ -1,0 +1,91 @@
+body {
+  background: url(background.webp) no-repeat;
+  background-size: cover;
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background: no-repeat;
+  margin: 10px;
+}
+.img {
+  width: 5vw;
+  padding-left: 22px;
+  filter: invert(100%);
+}
+.logo-text {
+  font-size: 15px;
+}
+.mid {
+  margin: 20px 10px;
+}
+.mid li {
+  align-items: center;
+  display: inline;
+  padding: 0px 30px;
+}
+.mid li a {
+  text-decoration: none;
+  color: white;
+}
+.mid li a:hover {
+  background: black;
+  transition-delay: 50ms;
+  transition-duration: 200ms;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid;
+  box-shadow: 2px 5px;
+}
+li a.active {
+  text-decoration: underline;
+  background: black;
+  padding: 5px 8px;
+  border-radius: 6px;
+}
+.right {
+  margin: 20px 10px;
+  padding: 8px;
+}
+.btn {
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition-delay: 50ms;
+  transition-duration: 200ms;
+}
+.container h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.container {
+  background: radial-gradient(red, black);
+  border: 3px solid maroon;
+  width: 30vw;
+  height: 45vh;
+  margin: 8vh auto;
+  padding: 10px 20px;
+}
+.form-grp input {
+  display: block;
+  text-align: center;
+  width: 25vw;
+  padding: 5px 8px;
+  border-radius: 6px;
+  margin: 4px auto;
+  font-size: medium;
+}
+.container .btn {
+  display: block;
+  margin: 12px auto;
+  padding: 8px 20px;
+  font-size: medium;
+}
